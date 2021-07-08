@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Person.hpp"
 
 int main(int, char**) {
-    int a = '5';
-    std::cout << a << std::endl;
+    Person p(18, "Danyl");
+
+    std::cout << p.getIdPerson() << std::endl;
 }

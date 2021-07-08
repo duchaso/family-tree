@@ -1,3 +1,8 @@
+#ifndef PERSON_H
+#define PERSON_H
+
+#include <iostream>
+#include <fstream>
 #include <string>
 
 class Person
@@ -11,7 +16,9 @@ class Person
         int getAgePerson();
         std::string& getNamePerson();
     public:
-        Person(int id, int age, std::string name)
-        : id_Person(id), age_Person(age), name_Person(name)
-        {}
+        void rfile(int id);
+    public:
+        Person(int age, std::string name);
 };
+
+#endif
