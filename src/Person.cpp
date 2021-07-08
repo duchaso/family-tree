@@ -23,8 +23,8 @@ void Person::rfile(int id = 0)
 }
 
 //constructor 
-Person::Person(int age, std::string name)
-: age_Person(age), name_Person(name)
+Person::Person(int age, std::string name, Role role)
+: age_Person(age), name_Person(name), role_Person(role)
 {
     id_Person++;
 }
