@@ -1,0 +1,27 @@
+#ifndef TREE_H
+#define TREE_H
+
+#include "Person.hpp"
+
+struct Node
+{
+   Person pers;
+   Node* father = nullptr;
+   Node* mother = nullptr;
+   
+   Node();
+   Node(Person p);
+};
+
+class Tree
+{
+    private:
+        Node* root;
+    public:
+        Node* search(Node* root, Person origin);
+        void push(Person origin, Person newPerson, Role role);
+    public:
+
+};
+
+#endif

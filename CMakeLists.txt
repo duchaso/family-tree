@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.0)
 project(family-tree VERSION 0.1.0)
 
 include(CTest)
-set(SOURCES src/main.cpp src/Person.cpp)
+set(SOURCES src/main.cpp src/Person.cpp src/Tree.cpp)
 
 enable_testing()
 

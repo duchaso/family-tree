@@ -27,7 +27,9 @@ class Person
         std::string& getNamePerson();
     public:
         void rfile(int id);
+        bool operator==(Person other);
     public:
+        Person();
         Person(int age, std::string name, Role role);
 };
 
