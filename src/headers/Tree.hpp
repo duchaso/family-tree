@@ -16,12 +16,13 @@ struct Node
 class Tree
 {
     private:
-        Node* root;
+        Node* root = nullptr;
+        Node* current = root;
     public:
         Node* search(Node* root, Person origin);
-        void push(Person origin, Person newPerson, Role role);
+        void push(Person newPerson, Person father);
     public:
-
+        
 };
 
 #endif

@@ -22,7 +22,7 @@ Node* Tree::search(Node* root, Person origin)
     }
 }
 
-void Tree::push(Person origin, Person newPerson, Role role)
+void Tree::push(Person newPerson, Person father)
 {
-
+    
 }
